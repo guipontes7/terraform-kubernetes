@@ -17,6 +17,7 @@ resource "azurerm_resource_group" "rg" {
   location = var.location
 }
 
+## Criando Cluster Kubernetes
 resource "azurerm_kubernetes_cluster" "aks" {
   name                = "aks1"
   location            = azurerm_resource_group.rg.location
