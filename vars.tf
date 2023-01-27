@@ -1,4 +1,4 @@
 variable "location" {
-  description = "The Azure Region in which all resources in this example should be provisioned"
+  description = "Região utilizada para todos os recursos deste projeto"
   default     = "West Europe"
 }
